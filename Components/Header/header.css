@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.151);
+    position: sticky;
+    top: 0;
+   
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    font-size: 1.12rem;
+    cursor: pointer;
+}
+
+li:hover{
+    color: var(--hEffect);
+
+}
+
+
+
+@media (max-width: 1153px) {
+    header h3{
+        margin-right: 6rem;
+    }
+}
+
+@media (max-width: 900px) {
+    nav {
+        display: none;
+    }
+    header {
+        justify-content: space-between;
+        padding-left: 1rem;
+    }
+    header img{
+        display: block;
+        padding-right: 1rem;
+    }
+}

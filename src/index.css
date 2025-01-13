@@ -1,0 +1,71 @@
+:root {
+    --pColor: rgb(160, 160, 160);
+    --logoColor: rgb(126, 46, 255);
+    --hEffect: rgb(126, 46, 255);
+    --sColor: rgb(126, 46, 255);
+    --bColor: rgb(102, 24, 228);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+section {
+    min-height: 80vh;
+    padding: 2rem 0;
+}
+
+span {
+    color: var(--sColor);
+    font-size: 1.6rem;
+    font-weight: 600;
+
+    width: 50%;
+}
+
+h1 {
+    font-size: 3rem;
+    /* margin-top: -1px; */
+    width: 50%;
+}
+
+h5 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+p {
+    color: var(--pColor);
+    width: 90%;
+    margin-top: -1.4rem;
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 1rem 1.7rem;
+    border-radius: 1.5rem;
+    border: none;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    
+}
+
+.button-container{
+    /* background-color: red; */
+    width: 50%;
+    justify-content: left !important;
+}
+
+.primary-button {
+    background-color: var(--bColor) ;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.24);
+}
+.primary-button:hover {
+    background-color: rgb(241, 241, 241) ;
+    color: var(--logoColor);
+   
+}

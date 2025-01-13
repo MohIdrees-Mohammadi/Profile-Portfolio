@@ -1,0 +1,19 @@
+.home-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.home-section div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.home-section div:nth-child(1){
+   flex-direction: column;
+   /* background-color: yellow; */
+   align-items: flex-end;
+}
+.home-section div:nth-child(2){
+   /* background-color: red; */
+   justify-content: left;
+   /* padding-left: 3rem; */
+}

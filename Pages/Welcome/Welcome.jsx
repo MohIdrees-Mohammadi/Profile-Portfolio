@@ -2,6 +2,7 @@ import React from 'react'
 import "./welcome.css"
 import Header from '../../Components/Header/Header'
 import HeroSection from '../../Components/HeroSection/HeroSection'
+import About from '../../Components/About/About'
 
 
 const Welcome = () => {
@@ -9,6 +10,7 @@ const Welcome = () => {
     <>
       <Header />
       <HeroSection />
+      <About />
     </>
   )
 }

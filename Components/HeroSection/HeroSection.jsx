@@ -1,11 +1,17 @@
 import React from 'react'
 
+import { CiFacebook } from "react-icons/ci";
+import { CiInstagram } from "react-icons/ci";
+import { FiGithub } from "react-icons/fi";
+import { CiLinkedin } from "react-icons/ci";
+
+
 import "./heroSection.css"
 import profile from "../../src/assets/Images/profile-pic.png"
 const HeroSection = () => {
   return (
     <section class="home-section" id="home">
-        <div class="test">
+        <div >
             <span>HELLO, I'M</span>
             <h1>MARK PARKER</h1>
             <p>A freelancer UI Designer & Web Developer</p>
@@ -24,16 +30,16 @@ const HeroSection = () => {
             <div class="line"></div>
             <div class="socials">
                 <div class="over-background">
-                    {/* <img height="30px" src="./fb.png" alt=""> */}
+                <CiFacebook size={30} className='icon' />
                 </div>
                 <div class="over-background">
-                    {/* <img height="30px" src="./fb.png" alt=""> */}
+                <CiInstagram size={29} className='icon' />
                 </div>
                 <div class="over-background">
-                    {/* <img height="30px" src="./fb.png" alt=""> */}
+                <FiGithub size={25 } className='icon' />
                 </div>
                 <div class="over-background">
-                    {/* <img height="30px" src="./fb.png" alt=""> */}
+                <CiLinkedin size={32} className='icon' />
                 </div>
                 
             </div>

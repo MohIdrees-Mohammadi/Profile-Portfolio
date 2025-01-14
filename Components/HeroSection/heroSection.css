@@ -17,3 +17,27 @@
    justify-content: left;
    /* padding-left: 3rem; */
 }
+
+.icon {
+   color: black;
+   margin-right: 12px;
+   cursor: pointer;
+}
+.icon:hover {
+   color: rgb(3, 1, 138);
+
+}
+
+.line{
+   background-color:  rgb(0, 60, 255);;
+   height: 3px;
+   width: 500px;
+    
+    margin-right: 10px;
+}
+.social-container{
+   display: flex;
+   justify-content: left !important;
+   gap: 10px;
+   /* background-color: aqua; */
+}

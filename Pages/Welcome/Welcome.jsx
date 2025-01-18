@@ -1,9 +1,9 @@
 import React from 'react'
 import "./welcome.css"
-import Header from '../../Components/Header/Header'
-import HeroSection from '../../Components/HeroSection/HeroSection'
-import About from '../../Components/About/About'
 
+
+
+import { Header, HeroSection, About, Services, Portfolio, Banner, Contact, Footer} from "../../Components/index"
 
 const Welcome = () => {
   return (
@@ -11,6 +11,11 @@ const Welcome = () => {
       <Header />
       <HeroSection />
       <About />
+      <Services />
+      <Portfolio />
+      <Banner />
+      <Contact />
+      <Footer />
     </>
   )
 }

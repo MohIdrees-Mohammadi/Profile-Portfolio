@@ -1,0 +1,53 @@
+
+.banner {
+    background-color: var(--primaryColor) ;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    background-image: url("../../src/assets/Images/profile-pic.png");
+    background-size: content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+  }
+
+
+.banner-container{
+    position: relative;
+    z-index: 2;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.center{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.title{
+    font-size: 3rem;
+    margin-bottom: -1rem;
+}
+
+.button-banner{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}

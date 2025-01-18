@@ -1,5 +1,10 @@
 import React from 'react'
-
+import { FaCalendar } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa6";
+import { IoMdEgg } from "react-icons/io";
+import { MdEmail } from "react-icons/md";
+import { FaLocationDot } from "react-icons/fa6";
+import { CgWebsite } from "react-icons/cg";
 import "./about.css"
 
 
@@ -18,21 +23,21 @@ const About = () => {
                         <div>
 
                             <div class="about-details">
-                                {/* <img height="30px" src="./tele.png" alt=""> */}
+                            <FaCalendar color='var(--primaryColor)' />
                                 <h6 class="bold">Date of Birth:</h6>
                                 <h6 class="gray"> 9 November 1990</h6>
                             </div>
 
                             <div class="about-details">
-                                {/* <img height="30px" src="./tele.png" alt=""> */}
-                                <h6 class="bold">Date of Birth:</h6>
-                                <h6 class="gray"> 9 November 1990</h6>
+                            <FaPhone color='var(--primaryColor)' />
+                                <h6 class="bold">Phone:</h6>
+                                <h6 class="gray"> 0747-xxxxxx</h6>
                             </div>
 
                             <div class="about-details">
-                                {/* <img height="30px" src="./tele.png" alt=""> */}
-                                <h6 class="bold">Date of Birth:</h6>
-                                <h6 class="gray"> 9 November 1990</h6>
+                            <IoMdEgg color='var(--primaryColor)' />
+                                <h6 class="bold">Degree:</h6>
+                                <h6 class="gray"> BSSE</h6>
                             </div>
                        
                             
@@ -45,21 +50,21 @@ const About = () => {
                         <div>
 
                             <div class="about-details">
-                                {/* <img height="30px" src="./tele.png" alt=""> */}
+                            <MdEmail color='var(--primaryColor)' />
+                                <h6 class="bold">Email:</h6>
+                                <h6 class="gray"> idr@gmail.com</h6>
+                            </div>
+
+                            <div class="about-details">
+                            <FaLocationDot color='var(--primaryColor)' />
                                 <h6 class="bold">Date of Birth:</h6>
                                 <h6 class="gray"> 9 November 1990</h6>
                             </div>
 
                             <div class="about-details">
-                                {/* <img height="30px" src="./tele.png" alt=""> */}
-                                <h6 class="bold">Date of Birth:</h6>
-                                <h6 class="gray"> 9 November 1990</h6>
-                            </div>
-
-                            <div class="about-details">
-                                {/* <img height="30px" src="./tele.png" alt=""> */}
-                                <h6 class="bold">Date of Birth:</h6>
-                                <h6 class="gray"> 9 November 1990</h6>
+                            <CgWebsite color='var(--primaryColor)' />
+                                <h6 class="bold">Website:</h6>
+                                <h6 class="gray"> www.cryptical.com</h6>
                             </div>
                        
                             

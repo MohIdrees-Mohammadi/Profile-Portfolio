@@ -1,0 +1,95 @@
+
+.cutome-button {
+    border: 1px solid var(--primaryColor);
+    border-radius: 5px;
+    padding: 0.3rem 0.6rem;
+}
+
+.cutome-button.active{
+    background-color: var(--primaryColor);
+    color: white;
+}
+
+.cutome-button:hover {
+    background-color:var(--primaryColor);
+    color: white;
+}
+
+
+.image-container{
+    margin-top: 3rem;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+  
+  .hover-card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .hover-card:hover {
+    transform: scale(1.05);
+  }
+  
+
+  .hover-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .hover-card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  .hover-card:hover .hover-card-overlay {
+    opacity: 1;
+  }
+  
+  .hover-card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hover-card-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .hover-card-btn {
+    padding: 10px 15px;
+    border: none;
+    background-color: var(--primaryColor);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hover-card-btn:hover {
+    border: 1px solid var(--primaryColor);
+    background-color: transparent;
+  }

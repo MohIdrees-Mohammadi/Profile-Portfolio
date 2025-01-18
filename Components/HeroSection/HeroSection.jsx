@@ -11,18 +11,20 @@ import profile from "../../src/assets/Images/profile-pic.png"
 const HeroSection = () => {
   return (
     <section class="home-section" id="home">
-        <div >
-            <span>HELLO, I'M</span>
+        <div className='home-left-container'>
+           <div style={{display: 'flex', flexDirection: 'column'}}>
+           <span>HELLO, I'M</span>
             <h1>MARK PARKER</h1>
             <p>A freelancer UI Designer & Web Developer</p>
             <div class="button-container">
                 <button class="primary-button">View My Work</button>
             </div>
+           </div>
         </div>
 
 
 
-        <div>
+        <div className='home-right-container'>
             <img  src={profile} alt="" />
         </div>
 

@@ -1,0 +1,8 @@
+footer {
+    background-color: var(--primaryColor);
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

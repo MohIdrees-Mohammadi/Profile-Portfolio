@@ -1,0 +1,35 @@
+
+.contact-container{
+
+    width: 60vw;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.right-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+ input, textarea {
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.096);
+}
+.custom-width{
+    width: 250px;
+    font-weight: 600;
+}
+
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-width {
+    width: 280px;
+}

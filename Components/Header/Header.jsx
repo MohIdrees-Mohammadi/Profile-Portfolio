@@ -5,27 +5,29 @@ import "./header.css"
 const Header = () => {
   return (
     <header>
-        <h3>Portfolio</h3>
-        <nav>
-           <ul>
-            
-            <a href="#home">
-                <li>Home</li>
-            </a>
-            <a href="#about">
-                <li>About</li>
-            </a>
-            <a href="#services">
-                <li>Services</li>
-            </a>
-            
+      <h2>Portfolio</h2>
+      <nav>
+        <ul>
+
+          <a href="#home">
+            <li>Home</li>
+          </a>
+          <a href="#about">
+            <li>About</li>
+          </a>
+          <a href="#services">
+            <li>Services</li>
+          </a>
+          <a href="#portfolio">
             <li>Portfolio</li>
-            <li>Testimonials</li>
-            <li>Pricing</li>
+          </a>
+          <a href="#contact">
             <li>Contact</li>
-           </ul> 
-        </nav>
-      
+          </a>
+
+        </ul>
+      </nav>
+
     </header>
   )
 }
